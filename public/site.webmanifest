@@ -1,0 +1,22 @@
+{
+  "name": "Corentin Manga | Ken le Survivant",
+  "short_name": "Corentin Manga",
+  "description": "Dossier éditorial consacré à Ken le Survivant, Hokuto no Ken et Soten no Ken.",
+  "lang": "fr-FR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ea580c",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
