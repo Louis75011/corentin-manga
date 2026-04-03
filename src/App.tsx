@@ -132,15 +132,6 @@ function HomePage() {
 
         <div className="relative z-10 max-w-7xl mx-auto w-full grid lg:grid-cols-[1.15fr_0.85fr] gap-12 items-center">
           <div>
-            <motion.div
-              initial={{ y: 24, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.7, ease: 'easeOut' }}
-              className="mb-8"
-            >
-              <EditorialBadge>La landing Page qui fracasse des tronches !</EditorialBadge>
-            </motion.div>
-
             <motion.p
               initial={{ y: 30, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -164,7 +155,16 @@ function HomePage() {
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.35 }}
-              className="max-w-2xl text-lg md:text-2xl leading-relaxed text-zinc-300 mb-10"
+              className="text-xl md:text-2xl font-mono uppercase tracking-widest text-zinc-400 mb-8"
+            >
+              La Landing Page qui fracasse des tronches !
+            </motion.p>
+
+            <motion.p
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.42 }}
+              className="max-w-2xl text-lg md:text-xl leading-relaxed text-zinc-300 mb-10"
             >
               Une page principale excessive juste comme il faut, pour parler de Hokuto no Ken, de son aura,
               de ses cicatrices et de l&apos;art délicat qui consiste à casser des tronches avec une élégance quasi liturgique.
@@ -199,14 +199,14 @@ function HomePage() {
               <img
                 src={V2_AVATAR}
                 alt="Corentin Manga en portrait"
-                className="w-56 h-56 md:w-80 md:h-80 object-cover rounded-full border-8 border-orange-600 shadow-[0_0_70px_rgba(234,88,12,0.35)]"
+                className="w-56 h-56 md:w-80 md:h-80 object-cover object-[center_18%] rounded-full border-8 border-orange-600 shadow-[0_0_70px_rgba(234,88,12,0.35)]"
               />
               <motion.div
                 animate={{ rotate: 360 }}
                 transition={{ duration: 14, repeat: Infinity, ease: 'linear' }}
                 className="absolute -inset-5 border border-dashed border-orange-500/30 rounded-full"
               />
-              <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 whitespace-nowrap bg-white text-black px-5 py-2 font-black italic uppercase text-sm shadow-xl">
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap bg-white text-black px-5 py-2 font-black italic uppercase text-sm shadow-xl border border-black/10">
                 Corentin veille sur le Hokuto
               </div>
             </div>
@@ -542,7 +542,7 @@ export default function App() {
             </div>
             <div className="min-w-0">
               <span className="block font-black text-xl tracking-tighter uppercase italic text-white truncate">Corentin Manga</span>
-              <span className="block text-[10px] uppercase tracking-[0.32em] text-zinc-500 truncate">Ken le Survivant et ses grands détours</span>
+              <span className="block text-[10px] uppercase tracking-[0.32em] text-zinc-500 truncate">Ken le Survivant</span>
             </div>
           </a>
 
