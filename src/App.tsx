@@ -424,6 +424,24 @@ function SotenPage() {
               <span className="w-2 h-2 rounded-full bg-orange-500" />
               Ici on explore l'apocalypse Hokuto
             </div>
+            <article className="mt-8 max-w-3xl border-l-2 border-orange-500 pl-6">
+              <p className="text-[10px] font-black uppercase tracking-[0.35em] text-orange-500 mb-3">Article signé Corentin Manga</p>
+              <h2 className="text-3xl md:text-4xl font-black italic tracking-tight text-white mb-6">Les Origines du Destin</h2>
+              <div className="space-y-5 text-base md:text-lg text-zinc-300 leading-relaxed">
+                <p>
+                  Que serait un site dédié à Hokuto no Ken sans un onglet consacré à sa série dérivée, Soten no Ken ? Préquelle de l’œuvre originale conçue par les mêmes auteurs — Tetsuo Hara au dessin et Buronson au scénario —, Soten no Ken prend place dans le Shanghai des années 30, en pleine crise de l’opium et de la guerre sino-japonaise. Mêlant avec brio événements et personnages historiques ou fictifs, l’œuvre ouvre un nouveau chapitre sur l’histoire de cet art martial qu’est le Hokuto Shinken.
+                </p>
+                <p>
+                  Nous suivons, tout au long de l’intrigue, les pérégrinations de l’oncle de Kenshiro (le héros de la première série), dénommé ici Yanwang parmi ses nombreux surnoms. Il sera amené, au fil du récit, à s’interroger sur son existence et à remettre en question la justesse de son combat au gré de ses rencontres avec ses alliés et ses ennemis.
+                </p>
+                <p>
+                  Le tour de force accompli par les auteurs consiste à enrichir considérablement l’univers de l’œuvre d’origine sans jamais tomber dans la simple répétition. En effet, les styles de combat et les enjeux diffèrent sensiblement d’une œuvre à l’autre. Tout au long de l’histoire, Yanwang remontera aux origines du Hokuto no Ken, parvenant à discerner les multiples dérivés de cet art tout en affrontant leurs nombreux disciples.
+                </p>
+                <p>
+                  En somme, je ne souhaite pas vous en dévoiler davantage, de peur de gâcher votre plaisir, mais je ne saurais trop vous recommander cette lecture. Puissiez-vous prendre autant de plaisir à découvrir cette œuvre que j’en ai moi-même éprouvé.
+                </p>
+              </div>
+            </article>
           </div>
 
           <div className="grid grid-cols-2 gap-4 items-start">
